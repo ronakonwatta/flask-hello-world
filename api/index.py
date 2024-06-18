@@ -9,3 +9,10 @@ def home():
 @app.route('/about')
 def about():
     return 'About'
+
+@app.route('/html')
+def api():
+    return '''
+<h1>HTML</h1>
+
+'''
